@@ -1,0 +1,339 @@
+*{
+    text-decoration: none;
+    /* background-color: aliceblue; */
+}
+/* navbarcss */
+.navbar{
+    /* background-color: aqua; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 70px;
+    
+}
+ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+}
+.navbutton{
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-right:70px;
+}
+.navbutton a{
+    color: aliceblue;
+}
+
+.icon{
+    display: flex;
+    justify-content: left;
+    
+    
+}
+.nut{
+    display: inline;
+}
+.ic{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+
+    
+
+    display: flex;
+    justify-content:center;
+    padding: 10px 0 1;
+    position:relative ;
+    top: 10px;
+    
+    /* padding-top: 50px; */
+    /* padding-left: 20px;  */
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.bold{
+    
+    font-weight: bold;
+}
+.overlap{
+    display: flex;
+    padding-top: 15px;
+}
+.pic{
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    border: 2px solid white;
+
+}
+.imageb{
+    display: inline-block;
+    position: relative;
+    left: -12px;
+}
+.imagec{
+    display: inline-block;
+    position: relative;
+    left: -22px;
+}
+.imaged{
+    display: inline-block;
+    position: relative;
+    left: -32px;
+}
+.unl{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 20px;
+}
+.tet{
+    padding-top:15px;
+    font-weight: bold;
+}
+.sect1{
+    padding-top: 100px;
+}
+
+/* scnd strt */
+
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    
+}
+.secnda{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.rocket{
+    transform: scaleX(-1);
+}
+.grl{
+    display: inline-block;
+    position: relative;
+    left: -22px;
+    top: -100px;
+}
+.head2{
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+}
+.para2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.stud2{
+    display: flex;
+    
+    padding-right: 60px;
+}
+.grad2{
+    border-radius: 100%;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px 0 1;
+    position:relative ;
+    /* top: 1px; */
+    
+}
+.stdk{
+    display: flex;
+    font-weight: bold;
+    /* justify-content: center; */
+}
+.para2{
+    color: rgb(174, 174, 174);
+}
+.gray{
+    color:  rgb(174, 174, 174) ;
+}
+.icon2{
+    display: flex;
+    justify-content: center;
+    padding: 1px 0 3;
+    padding-bottom: 50px;
+}
+
+.intric{
+    border-radius: 100%;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0 1;
+    position: relative;
+    /* top: 1px; */
+}
+.actic{
+    border-radius: 100%;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0 1;
+    position: relative;
+    /* top: 1px; */
+}
+
+.act2{
+    display: flex;
+
+}
+.instr2{
+    display: flex;
+    padding-right: 50px;
+
+}
+.book{
+    display: flex;
+    justify-content: center;
+    
+}
+.book2{
+    background-color: gainsboro;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: blue;
+    width: 100px;
+    height:50px;
+    
+
+}
+.book2:hover{
+    background-color: blue;
+    color: white;
+}
+.bcont{
+    display: flex;
+    padding-left: 30px;
+}
+.rating{
+    padding-left: 15px;
+    position: relative;
+    top: 1px; 
+    
+}
+.checked{
+    display: inline;
+    
+    
+    color: orange;
+       
+}
+.bookh{
+    display: flex;
+    position: relative;
+    top: -15px;
+}
+.secdb{
+    padding-top: 30px;
+    padding-right: 200px;
+}
+/* scnd section end */
+/* thrd strt */
+.third{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.thrda{
+    display: inline;
+    
+}
+.tutsec{
+    width: 50%;
+}
+.subsec{
+    width: 50%;
+}
+.txta{
+    font-weight: bolder;
+    font-size: 38px;
+}
+.kera{
+    color: green;
+}
+.thrdimg{
+    padding-right: 10px;
+}
+.imgsec{
+    border-radius: 10px;
+}
+.thirdb{
+    /* display: ; */
+    /* justify-content: center; */
+    /* padding-top: 100px; */
+}
+/* .subsec{
+    margin-left: 100px;
+} */
+.thirdba{
+    display: flex;
+}
+.thirdbb{
+    display: flex;
+    /* padding-top: 20px; */
+}
+
+.tutsechead{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.tutsecpara{
+    /* text-align: start; */
+    /* font-size: 20px; */
+    color:  rgb(174, 174, 174);
+}
+.tutsecicon{
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* end thrd */
+/* strt frth */
+.fourth{
+    display: flex;
+    padding-top: 30px;
+}
